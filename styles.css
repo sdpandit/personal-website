@@ -169,6 +169,9 @@ h1, h2, h3 { line-height: 1.25; margin: 0; }
 .card h3 { font-size: 18px; margin-bottom: 8px; }
 .card p { font-size: 15px; color: var(--muted); }
 .card .tags { margin-top: auto; }
+.card-link { margin-top: auto !important; font-size: 15px; font-weight: 500; }
+.card-link + .tags { margin-top: 0; }
+.card-title-link { color: inherit; }
 
 .card-kicker {
   font-family: "JetBrains Mono", ui-monospace, monospace;
