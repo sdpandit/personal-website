@@ -277,9 +277,9 @@ h1, h2, h3 { line-height: 1.25; margin: 0; }
   background: #fff;
   box-shadow: 0 4px 24px rgb(0 0 0 / 0.06);
 }
-.resume-frame img { display: block; width: 100%; height: auto; }
 .resume-pdf { width: 100%; aspect-ratio: 8.5 / 11; }
-.resume-fallback-link { display: block; }
+.resume-fallback { padding: 24px; margin: 0; }
+.resume-pdf.no-viewer { aspect-ratio: auto; }
 
 /* Footer */
 .site-footer { padding-top: 24px; padding-bottom: 40px; color: var(--muted); font-size: 14px; border-top: 1px solid var(--border); }
