@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Suyash Pandit</title>
+  <meta name="description" content="Suyash Pandit — Computer Science and Mathematics student at the University of Washington, interested in quantitative trading, theory, and software.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="nav-name" href="#top">Suyash Pandit</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="resume.html">Resume</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero container">
+      <p class="eyebrow">CS &amp; Math @ University of Washington</p>
+      <h1>Hi, I'm Suyash.</h1>
+      <p class="lede">
+        I study computer science and mathematics at the Paul G. Allen School, where I'm working toward a
+        B.S./M.S. I like problems where probability, algorithms, and good engineering meet: from options
+        pricing on a trading desk to the Fourier analysis of boolean functions.
+      </p>
+      <div class="hero-actions">
+        <a class="button primary" href="mailto:suyashpandit16@gmail.com">Get in touch</a>
+        <a class="button" href="resume.html">View resume</a>
+      </div>
+    </section>
+
+    <section id="about" class="section container">
+      <h2>About</h2>
+      <div class="about-grid">
+        <div>
+          <p>
+            I'm a double major in Computer Science and Mathematics (GPA 3.95) at the University of Washington,
+            continuing into the M.S. program. This past summer I was a Quantitative Trading Intern at
+            Susquehanna International Group, and during the school year I'm a Teaching Assistant for
+            CSE 12X, UW's introductory Java series.
+          </p>
+          <p>
+            Outside of class I compete in math, do theory research, build things at hackathons, and play
+            for the Chess Club. I'm also a member of the Algorithmic Trading Club.
+          </p>
+        </div>
+        <ul class="facts">
+          <li><span class="fact-label">Now</span>TA, CSE 12X at UW</li>
+          <li><span class="fact-label">Summer '26</span>Quant Trading Intern, SIG</li>
+          <li><span class="fact-label">Studying</span>B.S. CS + Math '27, M.S. CS '28</li>
+          <li><span class="fact-label">Based in</span>Seattle, WA</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="experience" class="section container">
+      <h2>Experience</h2>
+      <ol class="timeline">
+        <li class="entry">
+          <div class="entry-head">
+            <h3>Quantitative Trading Intern <span class="at">· Susquehanna International Group</span></h3>
+            <p class="meta">Jun 2026 – Aug 2026 · Bala Cynwyd, PA</p>
+          </div>
+          <ul>
+            <li>Applied probability, statistics, and options pricing theory to mock trading simulations and forecasting exercises.</li>
+            <li>Shadowed index and options traders on the pods desk to analyze market-making strategies and trading decisions.</li>
+            <li>Passed the Securities Industry Essentials (SIE) exam.</li>
+          </ul>
+        </li>
+        <li class="entry">
+          <div class="entry-head">
+            <h3>Teaching Assistant <span class="at">· Paul G. Allen School of CSE</span></h3>
+            <p class="meta">Sep 2025 – Present · Seattle, WA</p>
+          </div>
+          <ul>
+            <li>Teach quiz sections for CSE 12X, an introductory Java programming series serving over 1,000 students.</li>
+            <li>Help students in office hours, give feedback on projects, and help improve the course curriculum.</li>
+          </ul>
+        </li>
+        <li class="entry">
+          <div class="entry-head">
+            <h3>Counselor <span class="at">· MathPath</span></h3>
+            <p class="meta">Jun 2025 – Jul 2025 · South Hadley, MA</p>
+          </div>
+          <ul>
+            <li>Supervised students aged 11–14 at a residential summer math camp and planned recreational activities.</li>
+            <li>Assisted faculty in breakout courses such as Combinatorial Game Theory and Quadratic Reciprocity.</li>
+          </ul>
+        </li>
+        <li class="entry">
+          <div class="entry-head">
+            <h3>Software Engineering Intern <span class="at">· Jovian Software Consulting</span></h3>
+            <p class="meta">Jun 2024 – Aug 2024 · Grand Rapids, MI</p>
+          </div>
+          <ul>
+            <li>Wrote Bash scripts to automate builds for a service-oriented architecture project in an Agile environment.</li>
+            <li>Developed GoogleTest unit tests to validate logger functionality in a C++/CMake codebase.</li>
+            <li>Analyzed instrument data from spreadsheets and reported on patterns.</li>
+          </ul>
+        </li>
+      </ol>
+    </section>
+
+    <section id="projects" class="section container">
+      <h2>Projects</h2>
+      <div class="cards">
+        <article class="card">
+          <p class="card-kicker">Research</p>
+          <h3>CS Theory Research</h3>
+          <p>
+            Investigated Fourier analysis of boolean functions with a group of Allen School students. Reviewed
+            and suggested improvements to prior work on the optimal communication complexity of deciding whether
+            boolean functions are linearly isomorphic, using both randomized and deterministic algorithms.
+          </p>
+          <ul class="tags"><li>Complexity theory</li><li>Fourier analysis</li></ul>
+        </article>
+        <article class="card">
+          <p class="card-kicker">DubHacks</p>
+          <h3>Cartners</h3>
+          <p>
+            A web app that helps roommates coordinate grocery trips, plan meals, and discover recipes. Uses the
+            Gemini API to generate personalized recipes from cuisine preferences and dietary restrictions, with
+            React features for splitting expenses and payments.
+          </p>
+          <ul class="tags"><li>React</li><li>Gemini API</li></ul>
+        </article>
+        <article class="card">
+          <p class="card-kicker">Collaboration</p>
+          <h3>TrueMath</h3>
+          <p>
+            Worked with Elia Freedman on TrueMath, a large language model optimized to solve everyday math
+            problems. Wrote integration tests for PowerOne, the versatile calculator the application relies on.
+          </p>
+          <ul class="tags"><li>LLMs</li><li>Testing</li></ul>
+        </article>
+        <article class="card">
+          <p class="card-kicker">Husky Coding Project</p>
+          <h3>Receipt Beyond</h3>
+          <p>
+            An app that turns receipt data into long-term insights about finances and spending habits. Worked
+            with the backend team to parse receipt images into Firebase Realtime Database, and made date parsing
+            robust across varying receipt formats.
+          </p>
+          <ul class="tags"><li>Firebase</li><li>Data parsing</li></ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="education" class="section container">
+      <h2>Education</h2>
+      <div class="entry">
+        <div class="entry-head">
+          <h3>University of Washington <span class="at">· Paul G. Allen School of CSE</span></h3>
+          <p class="meta">Seattle, WA</p>
+        </div>
+        <p>M.S. in Computer Science, expected Jun 2028</p>
+        <p>B.S., double major in Computer Science and Mathematics, expected Jun 2027 · GPA 3.95/4.0</p>
+      </div>
+
+      <div class="edu-grid">
+        <div>
+          <h3 class="subhead">Awards</h3>
+          <ul class="plain">
+            <li>William Lowell Putnam Mathematics Competition, top 200 nationwide</li>
+            <li>USA Mathematical Olympiad (USAMO) Bronze Award</li>
+            <li>Phi Beta Kappa</li>
+            <li>Integration Bee Winner</li>
+            <li>Thomas J. Watson Memorial Scholarship</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="subhead">Coursework</h3>
+          <ul class="tags">
+            <li>Algorithms</li><li>Data Structures</li><li>Machine Learning</li><li>Artificial Intelligence</li>
+            <li>Probability &amp; Statistics</li><li>Real Analysis</li><li>Group Theory</li>
+            <li>Scientific Computing</li><li>Database Management Systems</li><li>Software Design &amp; Implementation</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section container">
+      <h2>Skills</h2>
+      <dl class="skills">
+        <div><dt>Languages</dt><dd>Python, Java, C/C++, JavaScript, HTML, SQL</dd></div>
+        <div><dt>Libraries</dt><dd>PyTorch, TensorFlow, NumPy, Pandas, Matplotlib, GoogleTest</dd></div>
+        <div><dt>Tools</dt><dd>Git, CMake, VS Code, Vim</dd></div>
+        <div><dt>Other</dt><dd>Linux/Unix, LaTeX</dd></div>
+      </dl>
+    </section>
+
+    <section id="contact" class="section container contact">
+      <h2>Contact</h2>
+      <p>I'm always happy to talk about math, trading, or interesting problems. The best way to reach me is email.</p>
+      <ul class="contact-links">
+        <li><a href="mailto:suyashpandit16@gmail.com">suyashpandit16@gmail.com</a></li>
+        <li><a href="https://github.com/sdpandit">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/suyash-pandit-68516b2bb/">LinkedIn</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer container">
+    <p>© 2026 Suyash Pandit</p>
+  </footer>
+</body>
+</html>
