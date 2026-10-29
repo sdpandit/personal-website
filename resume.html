@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=3">
+  <link rel="stylesheet" href="styles.css?v=4">
   <script src="theme.js?v=1"></script>
 </head>
 <body>
@@ -37,10 +37,13 @@
       <h1>Resume</h1>
       <a class="button primary" href="SuyashPanditResume.pdf" download>Download PDF</a>
     </div>
-    <a class="resume-frame" href="SuyashPanditResume.pdf">
-      <img src="resume.png" width="1700" height="2200"
-           alt="Suyash Pandit's one-page resume, covering education, experience, projects, and skills.">
-    </a>
+    <object class="resume-frame resume-pdf" data="SuyashPanditResume.pdf#navpanes=0&view=FitH" type="application/pdf"
+            aria-label="Suyash Pandit's resume (PDF)">
+      <a class="resume-fallback-link" href="SuyashPanditResume.pdf">
+        <img src="resume.png" width="1700" height="2200"
+             alt="Suyash Pandit's one-page resume, covering education, experience, projects, and skills.">
+      </a>
+    </object>
   </main>
 
   <footer class="site-footer container">
